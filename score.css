@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#container{
+    outline: 2px solid red;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+}
+
+#container-image{
+    outline: 2px solid blue;
+    /* % for I want it to depend on its parent container */
+    margin: 2% auto;
+    width: 90%;
+    height: 50%;
+}
+
+#container-score{
+    outline: 2px solid blue;
+    /* % for I want it to depend on its parent container */
+    margin: 2% auto;
+    padding: 2%;
+    /* font-size: 2rem; */
+    width: 90%;
+    height: 30%;
+}
+
+#container-buttons{
+    outline: 2px solid blue;
+    /* % for I want it to depend on its parent container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+    margin: 2% auto;
+    width: 90%;
+    height: 10%;
+}
+
+.btn{
+    padding: 2%;
+}
+
+.player1{
+    font-size: 2rem;
+}
+
+.player2{
+    font-size: 2rem;
+}
+
+.select-score{
+    outline: 2px solid rgb(149, 97, 105);
+    margin: 2%;
+    display: flex;
+}
+
+#win-score{
+    outline: 2px solid green;
+    margin: 2%;
+}
+
+.winner{
+    color: green;
+}
+
+.looser{
+    color: red;
+}

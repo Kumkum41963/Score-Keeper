@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+    <div id="container">
+        <div id="container-image">Here Comes The Image </div>
+        <div id="container-score">
+            <span class="player1">0</span>
+            VS
+            <span class="player2">0</span>
+            <span class="score-content">Use the buttons below to change the winning-score.</span>
+            <div class="select-score">
+                <span>Winning Score</span>
+                <select name="Winning Score" id="win-score">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+        </div>
+        <div id="container-buttons">
+            <button class="btn-player1">Player 1</button>
+            <button class="btn-reset">Reset</button>
+            <button class="btn-player2">Player 2</button>
+        </div>
+    </div>
+    
+
+    <!-- Link JS -->
+    <script src="score.js"></script>
+</body>
+</html>
