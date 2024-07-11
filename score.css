@@ -2,22 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    background-color: black;
+    color: white;
 }
 
 #container{
     outline: 2px solid red;
-    width: 50vw;
+    width: 60vw;
     height: 50vh;
     margin: auto;
+    border-radius: 10px;
 }
 
 #container-image{
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     /* % for I want it to depend on its parent container */
     margin: 2% auto;
     width: 90%;
     height: 50%;
+    border-radius: 10px;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 #container-score{
@@ -27,7 +36,18 @@
     padding: 2%;
     /* font-size: 2rem; */
     width: 90%;
-    height: 30%;
+    height: 35%;
+}
+
+.score-content{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.select-score{
+    display: flex;
+    align-items: center;
 }
 
 #container-buttons{
@@ -45,6 +65,8 @@
 
 .btn{
     padding: 2%;
+    font-size: 1.5rem;
+    border-radius: 10px;
 }
 
 .player1{
